@@ -1,11 +1,18 @@
+html, body, #root {
+  height: 100%;
+  background-color: #efefef;
+}
+
 * {
   padding: 0;
   margin: 0;
-  box-sizing: 0;
-  font-family: 'Outfit', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
 }
 
-html, body, #root {
-  background-color: #efefef;
-  height: 100%;
+h1, h2, h3 {
+  font-family: 'Special Gothic Expanded One', cursive;
+  font-weight: 400;
 }
+
